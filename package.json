@@ -6,12 +6,13 @@
   "scripts": {
     "test": "tsc && jest dist/test/test.js --verbose",
     "start": "tsc && node dist/src/main.js",
-    "clean": "rm -rf ./dist/*"
+    "clean": "rm -rf ./dist/* && rm -rf ./node_modules"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gitignore": "^0.7.0",
     "jest": "^29.7.0"
   },
   "devDependencies": {

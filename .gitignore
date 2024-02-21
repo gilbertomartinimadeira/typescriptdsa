@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+
+# TypeScript
+*.tsbuildinfo
+*.js
+*.js.map
+
+# Visual Studio Code
+.vscode/
+
+# IDE, OS, and temporary files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
+
+# Build output
+/dist/
+
+# Test coverage
+/coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+/jspm_packages/
+/bower_components/
+
+# Yarn
+yarn-error.log
+.pnp
+.pnp.js
+node_modules/
+.cache/
+dist/
+
+# Windows
+Desktop.ini
+Thumbs.db
+ehthumbs.db
